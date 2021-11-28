@@ -1,0 +1,40 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultPage">
+
+    <TextView
+        android:id="@+id/nameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TESTING"
+        android:textColor="@color/green_600"
+        tools:ignore="MissingConstraints"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="177dp"
+        tools:layout_editor_absoluteY="116dp" />
+
+    <TextView
+        android:id="@+id/materialText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nameText"
+        android:text="TESTING2"
+        android:textColor="@color/green_600"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="177dp"
+        tools:layout_editor_absoluteY="160dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="390dp"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

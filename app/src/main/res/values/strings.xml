@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">RecycleScannerFinal</string>
+
+    <string-array name="recycle_options">
+        <item>Bio</item>
+        <item>Cardboard</item>
+        <item>Hazardous material</item>
+        <item>Metal</item>
+        <item>Mixed waste</item>
+        <item>Plastic</item>
+    </string-array>
+
+</resources>
